@@ -62,7 +62,7 @@
    <!--start footer-->
    <footer>
    <div class="container">  
-   <div id="FooterTree"> © 2012. EventeX, some rights reserved.<img src="{{ STATIC_URL }}images/by-nc-sa.png"></div>
+   <div id="FooterTree"> © 2012. EventeX, some rights reserved.<img src="{{ STATIC_URL }}images/by-nc-sa.png" width="80" height="15"></div>
    <div id="FooterTwo"><img src="{{ STATIC_URL }}images/djangosite.gif"></div> 
    </div>
    </footer>
