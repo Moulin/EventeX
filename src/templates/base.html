@@ -1,0 +1,49 @@
+<!doctype html>  
+<head>
+<meta charset="UTF-8">
+<title>EventeX - Moulin</title>
+<link rel="icon" href="{{ STATIC_URL }}images/favicon.gif" type="image/x-icon"/>
+ <!--[if lt IE 9]>
+ <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+<link rel="shortcut icon" href="{{ STATIC_URL }}images/favicon.gif" type="image/x-icon"/> 
+<link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}css/styles.css"/>
+<link type="text/css" href="{{ STATIC_URL }}css/css3.css" rel="stylesheet" />
+<script type="text/javascript" src=" https://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.js"></script>
+<script type="text/javascript" src="{{ STATIC_URL }}js/jquery.pikachoose.js"></script>
+<script language="javascript">
+			$(document).ready(
+				function (){
+					$("#pikame").PikaChoose();
+				});
+		</script>
+    </head>
+    <body>
+
+    <!--start header-->
+
+    <header>
+ 
+     <!--end header-->
+	</header>
+
+    <!--start content-->
+    <div id="content">
+        {% block content %}
+        {% endblock content %}
+
+   
+    </div>
+   <!--end content-->
+   
+   <!--start footer-->
+   <footer>
+   <div class="container">  
+   <div id="FooterTree"> © 2012. EventeX, some rights reserved.<img src="{{ STATIC_URL }}images/by-nc-sa.png" width="80" height="15"></div>
+   <div id="FooterTwo"><img src="{{ STATIC_URL }}images/djangosite.gif"></div> 
+   </div>
+   </footer>
+   <!--end footer-->
+<!-- Free template distributed by http://freehtml5templates.com -->   
+   </body></html>
