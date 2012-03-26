@@ -7,3 +7,4 @@ Scripts
 .Python
 *.pyc
 *.py~
+*.gitignore~
