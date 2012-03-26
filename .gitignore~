@@ -6,4 +6,3 @@ local
 Scripts
 .Python
 *.pyc
-*.py~
