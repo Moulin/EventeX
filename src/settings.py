@@ -125,6 +125,7 @@ TEMPLATE_DIRS = (
 )
 
 INSTALLED_APPS = (
+    #Contrib Apps
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
@@ -135,6 +136,11 @@ INSTALLED_APPS = (
     'django.contrib.admin',
     # Uncomment the next line to enable admin documentation:
     # 'django.contrib.admindocs',
+    
+    #Apps de Terceiros
+    'south',
+    
+    #Minhas apps
     'core',
     'subscriptions', 
 )
